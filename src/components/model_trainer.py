@@ -18,7 +18,7 @@ from sklearn.metrics import r2_score
 from src.exception import CustomException
 from src.logger import logging
 
-from utils import save_object,evaluate_model
+from src.utils import save_object,evaluate_model
 
 
 @dataclass
